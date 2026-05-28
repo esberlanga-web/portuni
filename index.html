@@ -228,6 +228,9 @@ body{font-family:'Archivo',sans-serif;background:var(--cream2);color:var(--ink);
 .saved-label{font-family:'Space Grotesk',sans-serif;font-size:10px;font-weight:700;color:var(--lime-dk);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px}
 .saved-text{font-size:13px;color:var(--ink);line-height:1.6}
 .saved-text strong{color:var(--lime-dk);font-weight:700}
+.impact-block{background:var(--cream2);border:1px solid var(--border2);border-radius:4px;padding:14px 16px;width:100%;max-width:480px;text-align:left}
+.impact-label{font-family:'Space Grotesk',sans-serif;font-size:10px;font-weight:700;color:var(--hint);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px}
+.impact-text{font-size:13px;color:var(--muted);line-height:1.6}
 .btn-again{background:var(--ink);color:var(--lime);border:none;border-radius:4px;padding:14px 40px;font-size:14px;font-weight:700;cursor:pointer;font-family:'Space Grotesk',sans-serif;transition:opacity .12s,transform .12s}
 .btn-again:hover{opacity:.88;transform:translateY(-1px)}
 
@@ -568,6 +571,10 @@ body{font-family:'Archivo',sans-serif;background:var(--cream2);color:var(--ink);
     <div class="saved-block">
       <div class="saved-label">¿Qué habría pasado sin Portuni?</div>
       <div class="saved-text" id="cf-saved"></div>
+    </div>
+    <div class="impact-block">
+      <div class="impact-label">Tu reserva también cuenta</div>
+      <div class="impact-text">Cada fisioterapeuta que cubre un hueco hoy evita que ese dolor acabe en urgencias mañana.</div>
     </div>
     <button class="btn-again" onclick="go('s-feed')">Ver más huecos disponibles</button>
   </div>
